@@ -1,3 +1,7 @@
+@media screen and (max-width: 1024px) {
+    
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -19,11 +23,17 @@ header .banner {
     display: block;
     margin: 0 auto;
     transform-origin: top center;
-    scale: 1 0.4;
+    scale: 1 0.3;
 }
 
 header {
-    margin-bottom: -30%;
+    margin-bottom: -35%;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%
 }
 
 h2 {
@@ -38,6 +48,7 @@ h2 {
     align-items: center;
     padding: 10px;
     color: #fff;
+    background-image: linear-gradient(33deg, #000000, #dc4acd, #00d4ff);
 }
 
 .navigation ul {
@@ -111,6 +122,11 @@ a:hover {
     color: #fff;
 }
 
+.spotify h2 {
+    color: #fff;
+    margin-top: -2%;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -167,7 +183,7 @@ input {
     font-size: 20px;
 }
 
-input[type=submit] {
+input[type=submit], input[type=home] {
     background-color: #4d40df;
     border: none;
     color: white;
@@ -175,10 +191,12 @@ input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    text-align: center;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover, input[type=home]:hover {
     background-color: #2716d8;
 }
+
 
 /* Responsive layout - makes the menu and the logo stack on top of each other */
