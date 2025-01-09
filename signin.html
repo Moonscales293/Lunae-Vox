@@ -13,12 +13,9 @@
     <img src="Lunae.jpeg" alt="Lunae-Vox" class="banner">
 </header>
 <body>
+    <h1>Lunae-Vox, la lumière à travers la musique sombre</h1>
     <h2>Inscription</h2>
     <form>
-        <label for="email">Email:</label>
-        <br>
-        <input type="email" id="email" name="email" required>
-        <br>
         <label for="username">Nom d'utilisateur:</label>
         <br>
         <input type="text" id="username" name="username" required>
@@ -31,12 +28,13 @@
         <br>
         <input type="password" id="confirm-password" name="confirm-password" required>
         <br>
-        <input type="submit" value="S'inscrire">
-        <input type="home" value="Accueil" onclick="window.location.href='index.html'">
+        <button><input type="submit" value="S'inscrire"></button>
+        <a href="login.html" class="signin">Déjà un compte ? Connexion</a>
+        <button><input type="home" value="Accueil" onclick="window.location.href='index.html'"></button>
     </form>
     <footer>
         <a href="CGU.html">CGU</a>
-        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="legal.html">Mentions légales</a>
         <a href="contact.html">Contact</a>
     </footer>
 </body>
